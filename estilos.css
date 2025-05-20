@@ -1,0 +1,62 @@
+/* Fondo general rosa pastel */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffe4e9; /* Rosa pastel */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+ 
+/* Contenedor principal para centrar contenido */
+.container {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+ 
+/* Encabezados */
+h1, h2 {
+  color: #c2185b; /* Rosa fuerte */
+  text-align: center;
+}
+ 
+/* Botones en rosa fuerte */
+button {
+  background-color: #f06292; /* Rosa más fuerte */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+ 
+/* Efecto hover para el botón */
+button:hover {
+  background-color: #ec407a;
+}
+ 
+/* Campos de formulario (si los usas) */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+ 
+/* Alineación de contenido */
+.text-center {
+  text-align: center;
+}
